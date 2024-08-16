@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.header-top{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 16px 3px 6px;
+}
+.header-top a{
+    color: #002F34 !important;
+    text-decoration: none !important;
+}
+.property svg:hover{
+    color: #0d6EFD !important;
+
+}
+
+.property a:hover{
+    color: #0d6EFD !important;
+
+}
+.motor a:hover{
+    
+    color: #0d6EFD !important;
+}
+
+.location-bar{
+    background-color: #fff !important;
+
+}
+
+.search-icon{
+
+    background-color: #002F34;
+        
+}
+.search-bar{
+    color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.search-icon input{
+
+    color: #212529;    
+    border: none;   
+    outline: none;
+
+}
+
+.search-icon i{
+    padding: 13px;
+}
+
+.fa-comment, .fa-bell{
+    font-size: 20px;
+    width: fit-content;
+
+}
+
+.profile-icon div{
+    height: 35px;
+    width: 35px;
+}
+.profile-icon img{
+    width: 100%;
+}
+
+
+.sell-button{
+    position: relative;
+}
+
+.sell-content {
+    position: absolute;
+    margin: 0 auto;
+    padding-left: 30px;
+}
