@@ -1,4 +1,4 @@
-
+   
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
 
 *{
@@ -7,6 +7,28 @@
     box-sizing: border-box;
     font-family: "Roboto", Helvetica, sans-serif;
 }
+
+a:visited{
+    color: #002F34 !important;
+}
+
+body{
+/* 
+        display: flex;    
+        align-items: center;
+        justify-content: center; */
+    }
+
+header{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    background-color: #FFFF;
+    padding-bottom: 16px;
+}
+
 
 .header-top{
     font-size: 16px;
@@ -17,19 +39,21 @@
     color: #002F34 !important;
     text-decoration: none !important;
 }
-.property svg:hover{
+.motor :hover,
+.property :hover{
+    fill: #0d6EFD !important;
     color: #0d6EFD !important;
 
 }
 
-.property a:hover{
+/* .property a:hover{
     color: #0d6EFD !important;
 
 }
 .motor a:hover{
     
     color: #0d6EFD !important;
-}
+} */
 
 .location-bar{
     background-color: #fff !important;
@@ -81,5 +105,163 @@
 .sell-content {
     position: absolute;
     margin: 0 auto;
-    padding-left: 30px;
+    padding-left: 25px;
 }
+
+.top-section {
+    border-top: 1px solid #d8dfe0;
+    }
+    
+.top-section ul li a.nav-link{
+    color: #002F34 !important;
+}
+
+.top-section .navbar-nav li a.nav-link:hover{
+    cursor: pointer;
+    color: #00a49f !important;
+}
+
+.top-section ul li:first-child{
+    font-weight: 700;
+}
+
+.top-section .navbar-nav li a.nav-link:first-child:hover{
+    color: none;
+}
+
+.category-icons-group a{
+    text-decoration: none;
+    color: #002F34;
+
+}
+
+.category-icons-group a:hover{
+    text-decoration: none;
+    color: #002F34;
+
+}
+
+.category-icons{
+    width: 106px;
+    text-align: center;
+}
+
+.category-icon-image{
+
+    height: 88px;
+}
+
+.category-icon-image img{
+    height: 100%;
+}
+
+
+/* Mobile Phones start */
+
+.cards-group picture img.card-img-top{
+    height: 150px !important;
+    object-fit: cover;
+}
+
+.Mobile-categories  .cards-group a .card picture img{
+    width: 100% !important;
+
+}
+.Mobile-categories  .cards-group a {
+    color: #002F34;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.Mobile-categories  .cards-group a p{
+    color: #212529;
+    font-size: 16px;
+}
+
+.Mobile-categories  .cards-group a li{
+    color: #4a4b4d;
+}
+
+.Mobile-categories  .cards-group a li:last-child{
+    font-size: 12px;
+    color: #4a4b4d;
+}
+
+
+
+/* Mobile Phones end */
+
+
+.footer-banner{
+    background-color: #F7F8F8;
+}
+
+.footer-banner .app-dowload .app-group div{
+    height: 40px;
+    width: 128px;
+}
+
+
+/* Footer start */
+
+footer {
+
+    background-color: #EBEEEF;
+}
+
+footer nav p {
+    font-size: 14px !important;
+}    
+
+footer nav ul{
+    text-align: left;
+    list-style: none;
+}
+
+footer nav ul li {
+    font-size: 12px !important;
+}    
+
+
+footer nav .social-icon-group-footer div{
+    height: 24px;
+    width: 24px;
+}
+
+footer nav .social-icon-group-footer div img{
+    width: 100%;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #7f8889;
+}
+
+footer ul li a:hover{
+    color: #212529;
+}
+
+footer nav .footer-app-group div {
+
+    height: 28px;
+    width: 84px;
+
+}
+
+/* Footer end */
+
+
+/* Footer below start */
+
+.footer-below{
+    /* position: absolute;
+    bottom: 0; */
+    background-color:#002F34;
+}
+.footer-below p{
+    color: #FFFF;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+/* Footer below end */
